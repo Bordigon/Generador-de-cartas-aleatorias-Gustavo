@@ -1,5 +1,58 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+
 
 body{
-    background: white;
+    background: blue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card{
+    margin-top:10px;
+    background:white;
+    border-radius:30px;
+    height:550px;
+    width:350px;
+}
+
+#indice{
+    margin:0px 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:4rem;
+    width:50px;
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#indice p{
+    margin:0px 0px;
+    width:50px;
+    height:50px;
+}
+#indice img{   
+    margin-top:20px;
+    height:50px;
+    width:50px;
+}
+
+#central{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:10rem;
+}
+
+#central p{
+    margin:35px 0px;
+}
+
+.invertido{
+    transform:rotate(180deg);
+}
+
+.invertido img{
+    margin-bottom:25px;
 }

@@ -18,5 +18,6 @@ window.onload = function() {
   let numero = getRandomInt(13);
   let figura = getRandomInt(4);
  document.getElementById("indice").innerHTML=indice(numero) + imagen(figura);
+ document.getElementById("central").innerHTML=indice(numero);
  document.querySelector(".invertido").innerHTML=indice(numero) + imagen(figura);
 };
